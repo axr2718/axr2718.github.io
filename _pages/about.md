@@ -27,5 +27,5 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Adrian. I'm currently a MS CS student at the University of Texas at Dallas, advised by [Dr. Yunhui Guo](https://yunhuiguo.github.io).
+Hi! I'm Adrian. I'm currently a MS CS student at the University of Texas at Dallas, advised by [Dr. Yunhui Guo](https://yunhuiguo.github.io). Currently I'm working on using deep learning for generative AI. In particular, I am researching the use of neural networks applied to Energy-Based Models (EBMs) and Deep Equilibrium Models (DEQs) for image generation.
 
