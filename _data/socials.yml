@@ -2,8 +2,8 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-academia_edu: https://deil-lab-utd.github.io #  your organization and your username Ex. https://organization.academia.edu/UserName
-organization: The University of Texas at Dallas # your organization as appears in the subdomain
+#academia_edu: https://deil-lab-utd.github.io #  your organization and your username Ex. https://organization.academia.edu/UserName
+#organization: The University of Texas at Dallas # your organization as appears in the subdomain
 #  username:  AlbertEinstein # your username
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
@@ -46,7 +46,7 @@ scholar_userid: 3378LcAAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://deil-lab-utd.github.io/
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
