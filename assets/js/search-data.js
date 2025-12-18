@@ -455,20 +455,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-academia_edu',
-        title: 'Academia_edu',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
-        id: 'social-organization',
-        title: 'Organization',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -495,6 +481,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=3378LcAAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://deil-lab-utd.github.io/", "_blank");
         },
       },{
       id: 'light-theme',
