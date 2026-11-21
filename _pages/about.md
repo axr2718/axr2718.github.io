@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MS Student, The University of Texas at Dallas · Visiting Researcher, Harvard University
 
 profile:
   align: left
@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: false # includes a list of news items
+  enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a computer science MS student at the University of Texas at Dallas researching AI/ML. I am currently advised by [Dr. Yunhui Guo](https://yunhuiguo.github.io) and work as a research collaborator with [Dr. Yilun Du](https://yilundu.github.io) at Harvard University.
+I'm a computer science MS student at the University of Texas at Dallas, advised by [Dr. Yunhui Guo](https://yunhuiguo.github.io), and a visiting researcher in [Dr. Yilun Du](https://yilundu.github.io)'s Embodied Minds Lab at Harvard University.
 
-My research is driven by a desire to move beyond pattern recognition towards true machine reasoning and planning. I focus on Energy-Based Models (EBMs) and Implicit Deep Learning, such as Deep Equilibrium Models and Neural Ordinary Differential Equations. I am particularly interested in how these frameworks can enable reasoning and generalization in models to learn beyond what they were trained on.
+My research focuses on energy-based models (EBMs) for reasoning and planning. I'm interested in how learned energy functions can be composed and optimized with additional computation to solve problems harder than those seen during training. Most recently, I led the development of [Energy Minimization Search (EMS)](https://energy-based-model.github.io/ems/) (NeurIPS 2026), which unifies reasoning and planning through a shared training objective and time-independent energy minimization. Going forward, I want to extend this work to causal world models: agents that represent the world as composable energy functions and update the right component when the world changes.
+
+I am applying to PhD programs for Fall 2027.
