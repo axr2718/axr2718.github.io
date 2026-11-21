@@ -1411,3 +1411,18 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// News table on the home page: size the date column to its content
+// instead of a fixed 20%, and keep linked titles in the link color.
+.news {
+  th {
+    width: 1%;
+    white-space: nowrap;
+    word-spacing: 0.15em;
+    padding-right: 1.5rem;
+  }
+
+  a em {
+    color: inherit;
+  }
+}
