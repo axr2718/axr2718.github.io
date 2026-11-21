@@ -29,6 +29,6 @@ latest_posts:
 
 I'm a computer science MS student at the University of Texas at Dallas, advised by [Dr. Yunhui Guo](https://yunhuiguo.github.io), and a visiting researcher in [Dr. Yilun Du](https://yilundu.github.io)'s Embodied Minds Lab at Harvard University.
 
-My research focuses on energy-based models (EBMs) for reasoning and planning. I'm interested in how learned energy functions can be composed and optimized with additional computation to solve problems harder than those seen during training. Most recently, I led the development of [Energy Minimization Search (EMS)](https://energy-based-model.github.io/ems/) (NeurIPS 2026), which unifies reasoning and planning through a shared training objective and time-independent energy minimization. Going forward, I want to extend this work to causal world models: agents that represent the world as composable energy functions and update the right component when the world changes.
+My research focuses on energy-based models (EBMs) for reasoning and planning. I'm interested in how learned energy functions can be composed and optimized with additional computation to solve problems harder than those seen during training. Going forward, I want to extend this research to causal world models: agents that represent the world as composable energy functions and update the right component when the world changes.
 
 I am applying to PhD programs for Fall 2027.
