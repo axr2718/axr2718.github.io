@@ -67,14 +67,15 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    # pinned so a new default runner image can't break the build without warning
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          ruby-version: "3.3" # latest 3.3.x patch available on the runner
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
