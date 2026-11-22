@@ -1425,4 +1425,18 @@ figure.cover {
   a em {
     color: inherit;
   }
+
+  // Scrollable box: shows about five items, the rest scroll inside it.
+  // To change how much shows before scrolling, edit max-height.
+  .news-scroll {
+    max-height: 18rem;
+    overflow-y: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.75rem;
+
+    table {
+      margin-bottom: 0;
+    }
+  }
 }
