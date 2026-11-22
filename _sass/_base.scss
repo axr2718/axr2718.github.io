@@ -194,6 +194,7 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  margin-bottom: 1.5rem; // gap between the photo/email block and the next section (News)
 
   .more-info {
     margin-bottom: 5px;
@@ -1415,6 +1416,7 @@ figure.cover {
 // News table on the home page: size the date column to its content
 // instead of a fixed 20%, and keep linked titles in the link color.
 .news {
+  margin-top: 2rem; // same gap under the heading as .publications uses
   margin-bottom: 2rem; // space before the next section (Selected publications)
 
   th {
