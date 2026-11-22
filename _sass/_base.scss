@@ -1415,6 +1415,8 @@ figure.cover {
 // News table on the home page: size the date column to its content
 // instead of a fixed 20%, and keep linked titles in the link color.
 .news {
+  margin-bottom: 2rem; // space before the next section (Selected publications)
+
   th {
     width: 1%;
     white-space: nowrap;

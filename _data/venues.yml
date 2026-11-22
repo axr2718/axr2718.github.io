@@ -1,8 +1,14 @@
+# Badge shown next to each publication. `color` is the badge background;
+# all three keep white text readable (contrast ≥ 5:1).
+
 "NeurIPS":
   url: https://neurips.cc/
+  color: "#1f5fa8" # blue
 
 "ICLR Workshop":
   url: https://iclr.cc/
+  color: "#2e7d4a" # green
 
 "ICCV Workshop":
   url: https://iccv.thecvf.com/
+  color: "#b3501c" # burnt orange

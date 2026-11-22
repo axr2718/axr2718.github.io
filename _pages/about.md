@@ -8,10 +8,8 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
- # more_info: >
-  #  <p>555 your office number</p>
-  #  <p>123 your address street</p>
-  #  <p>Your City, State 12345</p>
+  more_info: >
+    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:%61%78%72%31%39%30%30%34%32@%75%74%64%61%6C%6C%61%73.%65%64%75">axr190042@utdallas.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
